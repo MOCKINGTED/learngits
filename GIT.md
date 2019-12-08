@@ -15,9 +15,10 @@ cat ~/.ssh/id_rsa.pub
 4. 克隆项目
 git clone git@github(github上有ssh的地址)
 
-// 5. 进入项目地址
+5. 进入项目地址
 cd 项目
-```git
+```
+
 ### 2. 一般步骤
 ```git
 1. 将工作区文件加入暂存区
