@@ -17,9 +17,9 @@ git clone git@github(github上有ssh的地址)
 
 # 5. 进入项目地址
 cd 项目
-```
+```git
 ### 2. 一般步骤
-```
+```git
 1. 将工作区文件加入暂存区
 git add 文件名
 
@@ -30,7 +30,7 @@ git commit . -m "这是备注信息"
 ```
 
 ### 2. 比较
-```python
+```git
 
 # 1. 比较工作区变动
 git diff
@@ -53,7 +53,7 @@ git diff hash值1 hash值2
 ```
 
 ### 3. 忽略文件权限
-```
+```git
 1. 当前版本库忽略文件权限信息
 git config core.filemode false
 
