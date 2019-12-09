@@ -89,3 +89,41 @@ git check-ignore -v .DS_store
 
 1. 使用强制添加
 ```
+
+## 5 分支管理
+- 上线使用`master`分支，开发用`develop`分支, 修改bug用`test`分支
+
+### 5.1 查看分支
+```
+查看本地分支
+git branch
+
+查看本地和远程分支
+git branch -a
+```
+
+### 5.2 新建分支
+```
+导入远程分支
+git checkout master
+
+1. 新建本地分支
+git checkout -b 分支名
+2. 指定远程分支名
+git push --set-upstream origin 分支名
+```
+
+### 5.3 合并分支
+```
+将分支合并到master上
+git merge test
+```
+
+### 5.4 删除分支
+```
+普通删除
+git branch -d 分支名
+
+强制删除
+git branch -D 分支名
+```
